@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+# whip: html inclusion preprocessor
+
+require 'whip'
