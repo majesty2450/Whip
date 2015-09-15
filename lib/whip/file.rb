@@ -31,7 +31,11 @@ class Whip::File
     def dir
         directory = ""
         loop do
-            directory = @path[0..@path.rindex("/")]
+            if @path.rindex("/")
+                directory = @path[0..@path.rindex("/")]
+            else
+                directory = "./"
+            end
             break if File.directory?(directory)
         end
         return directory
