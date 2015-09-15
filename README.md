@@ -1,7 +1,7 @@
 # Whip
 Whip: Hypertext Inclusion Preprocessor
 
-## Help (`-h --help`)
+### Help (`-h --help`)
 ```
 Useage:
       -v --version    displays version number
