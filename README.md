@@ -1,8 +1,6 @@
 # Whip
 Whip: Hypertext Inclusion Preprocessor
 
-##### Recommended Version: 0.1.0
-
 ### Help
 ```
 Useage:
