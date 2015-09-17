@@ -17,7 +17,7 @@ class Whip::Parser
         COMMAND_CLOSE_STATE = 5
     end
     def initialize
-        
+
     end
     # TODO: fix parse so as to work with errors properly
     def parse (file)
@@ -58,6 +58,9 @@ class Whip::Parser
                         input = ""
                     else
                         state = TokenStates::TEXT_STATE
+                        if tokens.length == 0
+                            tokens.push(Whip::TextToken.new(pos))
+                        end
                     end
                 when TokenStates::COMMAND_NAME_STATE
                     #puts "COMMAND_NAME_STATE"
