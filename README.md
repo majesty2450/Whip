@@ -1,6 +1,14 @@
 # Whip
 Whip: Hypertext Inclusion Preprocessor
 
+### Description
+
+MVC - model view controller. The web runs off of this concept, although imperfectly. Many template engines and preprocessors for html try to apply DRY principles, but blur the bounds with logic, are bloated, require runtime js, and slow down the site.
+
+Servers that strive to do the right thing use tools such as SSI, however, this may not be desirable or possible in all situations and is somewhat limiting.
+
+The solution is to use a proper compile-time preprocessor. As you edit files are automatically compiled and used. It is fast, flexible, portable, and when made properly, right. Whip is just this.
+
 ### Help
 ```
 Useage:
